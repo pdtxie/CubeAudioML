@@ -11,6 +11,7 @@
 		23E57DE027AF3249002FD144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E57DDF27AF3249002FD144 /* ContentView.swift */; };
 		23E57DE227AF324A002FD144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E57DE127AF324A002FD144 /* Assets.xcassets */; };
 		23E57DE527AF324A002FD144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E57DE427AF324A002FD144 /* Preview Assets.xcassets */; };
+		23E57DEC27AF3EDB002FD144 /* CubeSoundClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 23E57DEB27AF3EDA002FD144 /* CubeSoundClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		23E57DDF27AF3249002FD144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23E57DE127AF324A002FD144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23E57DE427AF324A002FD144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23E57DEB27AF3EDA002FD144 /* CubeSoundClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CubeSoundClassifier.mlmodel; path = ../../CubeSoundClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				23E57DDD27AF3249002FD144 /* CubeAudioMLApp.swift */,
 				23E57DDF27AF3249002FD144 /* ContentView.swift */,
+				23E57DEB27AF3EDA002FD144 /* CubeSoundClassifier.mlmodel */,
 				23E57DE127AF324A002FD144 /* Assets.xcassets */,
 				23E57DE327AF324A002FD144 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E57DE027AF3249002FD144 /* ContentView.swift in Sources */,
+				23E57DEC27AF3EDB002FD144 /* CubeSoundClassifier.mlmodel in Sources */,
 				23E57DDE27AF3249002FD144 /* CubeAudioMLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
