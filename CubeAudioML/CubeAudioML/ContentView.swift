@@ -45,8 +45,30 @@ struct ContentView: View {
     @StateObject var manager = Manager()
     
     var body: some View {
-        Button("start") {
-            manager.start()
+        VStack {
+            Button("start") {
+                manager.start()
+            }
+            
+            
+            
+            let data: [Double] = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.5, 0.7, 0.3, 0.1, 0.2, 0.8, 0.7, 0.3, 0.3, 0.1, 0.2, 0.3, 0.4, 0.5, 0.2, 0.1, 0.6, 0.3, 0.5, 0.6, 0.3, 0.3, 0.2, 0.1]
+            
+            HStack {
+                ForEach(data.suffix(20), id: \.self) { datum in
+                    Capsule()
+                        .fill(Color.black)
+                        .frame(height: 100*datum)
+                }
+            }
+            .padding()
+            
+            
+            
         }
+        
+        
+        
+        
     }
 }
