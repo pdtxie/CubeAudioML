@@ -1,3 +1,3 @@
-# gunnhacks-audio-ml
+# CubeAudioML
 
-hi
+coreml machine learning model to reocgnise pauses during cube solves
